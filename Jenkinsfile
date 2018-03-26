@@ -1,3 +1,5 @@
 node("jenkins-maven") {
-  echo("test")
+  stage("test") {
+    echo("test")
+  }
 }
